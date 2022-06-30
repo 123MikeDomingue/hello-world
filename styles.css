@@ -10,3 +10,38 @@ h1{
   font-size: 25px;
   color: red;
 }
+
+
+.grid-container{
+  border: 0.4px solid red;
+  width: 500px;
+  gap: 10px;
+ 
+  display: grid;
+  
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 200px 100px ;
+
+}
+
+.A{
+  grid-area: 1/ 1 / span 1/ span 2;
+  border: 1px solid black;
+ 
+
+}
+
+.B{
+  grid-area: 2 / 1 / span 1/ span 1;
+  border: 1px solid black;
+}
+.C{
+  grid-area: 2 / 2 / span 1 / span 1;
+  border: 1px solid black;
+
+}
+.D{
+  grid-area: 3 / 1 / span 1 / span 2;
+  border: 1px solid black;
+}
+
